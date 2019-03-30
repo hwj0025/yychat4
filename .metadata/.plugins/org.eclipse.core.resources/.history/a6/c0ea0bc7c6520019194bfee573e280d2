@@ -1,0 +1,14 @@
+package com.yychatserver.controller;
+
+import java.net.Socket;
+
+public class ServerReceiverThread extends Thread{
+	Socket s;
+   public ServerReceiverThread(Socket s){
+	  this.s=s; 
+   }
+   
+   public void run(){
+	   
+   }
+}
